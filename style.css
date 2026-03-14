@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+.app {
+    width: 100%;
+    max-width: 600px;
+}
+
+.header {
+    background: #020617;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.inputBox {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+#addBtn {
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+#addBtn:hover {
+    background: #16a34a;
+}
+
+#todoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoText {
+    flex: 1;
+}
+
+.actions {
+    display: flex;
+    gap: 6px;
+}
+
+button {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.delete {
+    background: #ef4444;
+    color: white;
+}
+
+.edit {
+    background: #3b82f6;
+    color: white;
+}
+
+.save {
+    background: #22c55e;
+    color: white;
+    display: none;
+}
+
+.editInput {
+    display: none;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
