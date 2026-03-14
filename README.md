@@ -5,7 +5,7 @@ A simple Todo Manager built using **HTML, CSS and JavaScript** that performs ful
 This project demonstrates how to interact with an external API using JavaScript to create, read, update and delete tasks.
 
 ---
-## Live Demo - 
+## Live Demo - https://wasim2934.github.io/todo-crud-app/
 
 ## Features
 
