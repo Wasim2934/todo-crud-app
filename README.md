@@ -1,4 +1,4 @@
-# API Todo Manager
+# Todo CRUD App
 
 A simple Todo Manager built using **HTML, CSS and JavaScript** that performs full **CRUD operations** with the help of **MockAPI**.
 
